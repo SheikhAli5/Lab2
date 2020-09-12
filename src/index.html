@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab1</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="first">
+	<ol reversed id="ol">
+
+	</ol>
+</div>
+<dir class="second">
+	<form class="form">
+		<div class="comment">
+			<input type="text" class="txt" id="txt" name="text_area"><br>
+		</div>
+		<div class="buttons">
+			<div class="b1">
+				<input type="button" name="7" class="btn" id="butt7" value="7" onclick="btnClick(7)">
+				<input type="button" name="8" class="btn" id="butt8" value="8" onclick="btnClick(8)">
+				<input type="button" name="9" class="btn" id="butt9" value="9" onclick="btnClick(9)">
+
+				<input type="button" name="4" class="btn" id="butt4" value="4" onclick="btnClick(4)">
+				<input type="button" name="5" class="btn" id="butt5" value="5" onclick="btnClick(5)">
+				<input type="button" name="6" class="btn" id="butt6" value="6" onclick="btnClick(6)">
+
+				<input type="button" name="1" class="btn" id="butt1" value="1" onclick="btnClick(1)">
+				<input type="button" name="2" class="btn" id="butt2" value="2" onclick="btnClick(2)">
+				<input type="button" name="3" class="btn" id="butt3" value="3" onclick="btnClick(3)">
+
+				<input type="button" name="+" class="btn" id="butt+" value="+" onclick="btnSum()">
+				<input type="button" name="0" class="btn" id="butt0" value="0" onclick="btnClick(0)">
+				<input type="button" name="-" class="btn" id="butt-" value="-" onclick="btnSub()">
+
+				<input type="button" name="*" class="btn" id="butt*" value="*" onclick="btnMult()">
+				<input type="button" name="с" class="btn c" id="buttс" value="с" onclick="btnClear()">
+				<input type="button" name="/" class="btn" id="butt/" value="/" onclick="btnDiv()">
+			</div>
+			<input type="button" name="=" class="btn answer c" id="butt=" value="=" onclick="btnAnswer()">
+
+		</div>
+<!--		<input type="button" name="button" class="btn" id="butn" value="Отправить" onclick="btnClick()">-->
+	</form>
+</dir>
+
+<script src="js/type.js"></script>
+</body>
+</html>
